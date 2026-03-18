@@ -45,7 +45,7 @@ Sobre el IDE, tiene las siguientes funcionalidades [1] en su cliente de escritor
 
 Este tipo de semáforo es de los más sencillos. Funciona con ciclos de colores en tiempos configurados previamente. Por ejemplo, está en rojo por 5 minutos antes de cambiar a verde por otros 5 minutos. Este tipo de semáforo no depende de sensores o inputs de ningún tipo. Se puede aplicar para semáforos de tránsito y peatonales. En este caso, al añadir sonido antes de pasar a verde, sería más útil para los peatones.
 
-> **En Semáforos de tiempo fijo:** Los semáforos de tiempo fijo se utilizan en aquellas intersecciones donde el comportamiento de tránsito es estable, es decir donde los flujos vehiculares se pueden adaptar a un programa de tiempos previsto, sin ocasionar demoras o congestionamiento excesivo. Los semáforos de tiempo fijo, se adaptan fácilmente a aquellas ocasiones en que queremos coordinar varias intersecciones a lo largo de un corredor vehicular. ([Fuente](https://repositorio.mopt.go.cr/server/api/core/bitstreams/90d07687-b340-4304-945b-acb89ec9cf78/content#:~:text=En%20Sem%C3%A1foros%20de%20tiempo%20fijo:%20Los%20sem%C3%A1foros,previsto%2C%20sin%20ocasionar%20demoras%20o%20congestionamiento%20excesivo.))
+> **En Semáforos de tiempo fijo:** Los semáforos de tiempo fijo se utilizan en aquellas intersecciones donde el comportamiento de tránsito es estable, es decir donde los flujos vehiculares se pueden adaptar a un programa de tiempos previsto, sin ocasionar demoras o congestionamiento excesivo. Los semáforos de tiempo fijo, se adaptan fácilmente a aquellas ocasiones en que queremos coordinar varias intersecciones a lo largo de un corredor vehicular [4].
 
 ---
 
@@ -66,15 +66,22 @@ Código: [semaforo-control-basado-tiempo-fijo.ino](./code/semaforo-control-basad
 
 **Circuit Playground Classic funcionando:**
 
-<video src="./media/circuit-playground-classic-funcionando.mp4" controls width="100%"></video>
+Descargar video completo: [circuit-playground-classic-funcionando.mp4](./media/circuit-playground-classic-funcionando.mp4).
+
+![Circuit Playground Classic funcionando](./media/circuit-playground-classic-funcionando.gif)
 
 
 ---
 
 ## Referencias
 
+> **Aclaración sobre el uso de la Inteligencia Artificial:**
+> Para la estructuración, corrección de estilo y formato Markdown de este documento, se utilizó como asistencia un asistente de desarrollo con Inteligencia Artificial.
+
 [1] Arduino, "Getting Started with Arduino IDE 2," Arduino Documentation. [Online]. Available: https://docs.arduino.cc/software/ide-v2/tutorials/getting-started-ide-v2/.
 
 [2] Adafruit, "Introducing Circuit Playground," Adafruit Learning System. [Online]. Available: https://learn.adafruit.com/introducing-circuit-playground/overview.
 
 [3] Adafruit, "Circuit Playground Bike Light," Adafruit Learning System. [Online]. Available: https://learn.adafruit.com/circuit-playground-bike-light/overview.
+
+[4] Ministerio de Obras Públicas y Transportes (MOPT), "Semáforos". [Online]. Available: https://repositorio.mopt.go.cr/server/api/core/bitstreams/90d07687-b340-4304-945b-acb89ec9cf78/content.
