@@ -1,9 +1,10 @@
 ///////////////////////////////////////////////////////////////////////////////
-// Circuit Playground Bike Light - Flasher
-//
-// Author: Carter Nelson
-// MIT License (https://opensource.org/licenses/MIT)
-
+// Circuit playground classic semaphore
+// Authors:
+// Isabella Rodríguez Sánchez
+// Esteban Isaac Baires Cerdas
+// Jorge Ricardo Díaz Sagot
+///////////////////////////////////////////////////////////////////////////////
 
 #include <Adafruit_CircuitPlayground.h>
 
@@ -64,3 +65,8 @@ void flash(unsigned int color) {
     delay(FLASH_RATE);
   }
 }
+
+// References:
+// Circuit Playground Bike Light - Flasher
+// Author: Carter Nelson
+// MIT License (https://opensource.org/licenses/MIT)
