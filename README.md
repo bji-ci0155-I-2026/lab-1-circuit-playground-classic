@@ -113,8 +113,8 @@ stateDiagram-v2
         direction LR
         [*] --> Verde_ON : Inicia ciclo (10 parpadeos)
         
-        Verde_ON --> OFF : Delay (tiempo de flash = 250 ms) <br> + Emitir sonido (440Hz, 200ms)
-        OFF --> Verde_ON : Delay (tiempo de flash = 250 ms) <br> [iteraciones < 10]
+        Verde_ON --> OFF : Delay (tiempo de flash = <br>250 ms) <br> + Emitir sonido <br>(440Hz, 200ms)
+        OFF --> Verde_ON : Delay (tiempo de flash = <br>250 ms) <br> [iteraciones < 10]
         OFF --> [*] : [iteración == 10]
     }
 ```
