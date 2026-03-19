@@ -59,18 +59,6 @@ Por ejemplo, está en rojo por 5 minutos antes de cambiar a verde por otros 5 mi
 
 ### OBJ 4: Diseño e implementación del semáforo de control basado en tiempo fijo
 
-TODO: Como disenar semaforos
-TODO: maquina de estados del semáforo
-
-[8:28, 18/3/2026] +506 8407 1287: pues en realidad la guia solo trae como algunas animaciones de luces para el circuit playground, nosotros hicimos el codigo como a puro set pixels y delays basicamente
-[8:29, 18/3/2026] +506 8407 1287: y como que el diseño fue en mi libreta y basicamente fue: 
-loop:
-  verde
-  flash
-  amarillo
-  rojo
-[8:30, 18/3/2026] +506 8407 1287: como con delays en medio y yap
-
 **Pseudocódigo del semáforo:**
 ```text
 INICIO:
